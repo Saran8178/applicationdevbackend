@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApplicationdevApplication<applicationdev>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.saran.applicationdev.ApplicationdevApplication",
+            "projectName": "applicationdev",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
