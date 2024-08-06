@@ -15,7 +15,7 @@ public class AdminJobs {
     private String description;
 
     @ManyToOne
-    private Users user;
+    private User user;
 
     // Getters and Setters
     public long getJobId() {
@@ -42,11 +42,11 @@ public class AdminJobs {
         this.description = description;
     }
 
-    public Users getUser() {
+    public User getUser() {
         return user;
     }
 
-    public void setUser(Users user) {
+    public void setUser(User user) {
         this.user = user;
     }
 }
